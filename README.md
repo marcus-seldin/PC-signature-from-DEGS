@@ -1,4 +1,4 @@
-# PC-signature-from-DEGS
+# PC signature from DEGS
 ### Introduction
 Examples of using specific gene set as a principle component signature to integrate with traits in popluation data. 
 
