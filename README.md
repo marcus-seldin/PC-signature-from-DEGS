@@ -15,8 +15,8 @@ Yu J, Seldin MM, Fu K, Li S, Lam L, Wang P, Wang Y, Huang D, Nguyen TL, Wei B, K
 
 ### Steps
 
-In this example, we will use genes ienriched from ChIP-Sequencing peaks which were specific for a targeted (Adipose-sepcific) deletion of Tcf7l2. These genes will be pulled form adipose tissue expression arrays in the Hybrid Mouse Diversity Panel (HMDP) fed a high-fat/high/sucrose diet and correlated with a subset of traits relevant for metabolic disease 
+In this example, we will use genes ienriched from ChIP-Sequencing peaks which were specific for a targeted (Adipose-sepcific) deletion of Tcf7l2. These genes will be pulled form adipose tissue expression arrays in the Hybrid Mouse Diversity Panel (HMDP) fed a high-fat-high/sucrose (HF/HS) diet and correlated with a subset of traits relevant for metabolic disease 
 
-Initially, we will gather these gene sets from population data, perform principle component analysis and ask how variation of each gene "contributes" to the top principle components.
+Initially, we will gather these specific genes (provided as Top_500_chip_genes.txt) from global adipose transript measures from an HMDP population fed a HF/HS diet (adipose_HMDP_genes.txt), perform principle component analysis and ask how variation of each gene "contributes" to the top principle components.  The correponding script is provided as PC_generation.R
 
 Following this, each HMDP mouse will be assigned a value based on its variation of the principle component genes.  These values will then be used to correlate with clinical traits.  
